@@ -59,6 +59,23 @@ export interface Match {
   status: MatchStatus;
 }
 
+export type QualificationZone = "direct" | "third" | null;
+
+export interface StandingsRowView {
+  teamId: string;
+  name: string;
+  code: string;
+  played: number;
+  goalDifference: number;
+  points: number;
+  qualification: QualificationZone;
+}
+
+export interface GroupView {
+  id: string;
+  rows: StandingsRowView[];
+}
+
 export interface StandingsRow {
   teamId: string;
   played: number;
