@@ -76,6 +76,26 @@ export interface GroupView {
   rows: StandingsRowView[];
 }
 
+export interface MatchTeamView {
+  id: string;
+  name: string;
+  code: string;
+}
+
+export interface MatchView {
+  id: string;
+  phase: MatchPhase;
+  groupId?: string;
+  date: string;
+  venueId: string;
+  stadium: string;
+  city: string;
+  home: MatchTeamView | null;
+  away: MatchTeamView | null;
+  result?: MatchResult;
+  status: MatchStatus;
+}
+
 export interface StandingsRow {
   teamId: string;
   played: number;
