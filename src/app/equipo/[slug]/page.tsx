@@ -1,14 +1,9 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import clsx from "clsx";
-import {
-  getMatchesByTeam,
-  getTeamById,
-  getTeams,
-  getVenues,
-} from "@/lib/data";
+import { getMatchViews, getMatchesByTeam, getTeamById, getTeams } from "@/lib/data";
 import { computeTeamRecord } from "@/lib/standings";
-import type { Match, MatchTeamView, MatchView } from "@/lib/types";
+import type { Match } from "@/lib/types";
 import TeamBadge from "@/components/team/TeamBadge";
 import PointsChart, {
   type PointsChartDatum,
@@ -30,13 +25,6 @@ export function generateMetadata({ params }: TeamPageProps): Metadata {
     title: `${team.name} | Mundial 2026`,
     description: `Partidos, resultados y evolución de puntos de ${team.name} en el Mundial 2026.`,
   };
-}
-
-function toTeamView(teamId: string | null): MatchTeamView | null {
-  if (!teamId) return null;
-  const team = getTeamById(teamId);
-  if (!team) return null;
-  return { id: team.id, name: team.name, code: team.code };
 }
 
 function buildPointsData(teamId: string, matches: Match[]): PointsChartDatum[] {
@@ -76,30 +64,13 @@ export default function TeamPage({ params }: TeamPageProps) {
   const team = getTeamById(params.slug);
   if (!team) notFound();
 
-  const venueById = new Map(getVenues().map((v) => [v.id, v]));
   const teamMatches = [...getMatchesByTeam(team.id)].sort((a, b) =>
     a.date.localeCompare(b.date)
   );
   const record = computeTeamRecord(team.id, teamMatches);
   const pointsData = buildPointsData(team.id, teamMatches);
   const streak = buildStreak(team.id, teamMatches);
-
-  const matchViews: MatchView[] = teamMatches.map((match) => {
-    const venue = venueById.get(match.venueId);
-    return {
-      id: match.id,
-      phase: match.phase,
-      groupId: match.groupId,
-      date: match.date,
-      venueId: match.venueId,
-      stadium: venue?.stadium ?? match.venueId,
-      city: venue?.city ?? "",
-      home: toTeamView(match.homeTeamId),
-      away: toTeamView(match.awayTeamId),
-      result: match.result,
-      status: match.status,
-    };
-  });
+  const matchViews = getMatchViews(teamMatches);
 
   const stats = [
     { label: "PJ", value: record.played },

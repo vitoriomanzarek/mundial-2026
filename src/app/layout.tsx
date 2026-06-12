@@ -1,6 +1,7 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Inter } from "next/font/google";
 import Header from "@/components/layout/Header";
+import Footer from "@/components/layout/Footer";
 import "./globals.css";
 
 const inter = Inter({
@@ -8,10 +9,31 @@ const inter = Inter({
   variable: "--font-inter",
 });
 
+const description =
+  "Grupos, partidos y bracket eliminatorio del Mundial 2026 en una vista.";
+
 export const metadata: Metadata = {
+  metadataBase: new URL(
+    "https://mundial-2026-vitoriomanzareks-projects.vercel.app"
+  ),
   title: "Mundial 2026",
-  description:
-    "Grupos, partidos y bracket eliminatorio del Mundial 2026 en una vista.",
+  description,
+  openGraph: {
+    title: "Mundial 2026",
+    description,
+    type: "website",
+    locale: "es_MX",
+    siteName: "Mundial 2026",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Mundial 2026",
+    description,
+  },
+};
+
+export const viewport: Viewport = {
+  themeColor: "#0A0A0B",
 };
 
 export default function RootLayout({
@@ -24,6 +46,7 @@ export default function RootLayout({
       <body className={`${inter.variable} font-sans`}>
         <Header />
         <main>{children}</main>
+        <Footer />
       </body>
     </html>
   );

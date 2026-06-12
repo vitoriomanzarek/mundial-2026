@@ -2,7 +2,14 @@ import teamsJson from "@/data/teams.json";
 import groupsJson from "@/data/groups.json";
 import venuesJson from "@/data/venues.json";
 import matchesJson from "@/data/matches.json";
-import type { Group, Match, Team, Venue } from "./types";
+import type {
+  Group,
+  Match,
+  MatchTeamView,
+  MatchView,
+  Team,
+  Venue,
+} from "./types";
 
 const teams = teamsJson as unknown as Team[];
 const groups = groupsJson as unknown as Group[];
@@ -124,4 +131,34 @@ export function getMatchesByTeam(teamId: string): Match[] {
   return getMatches().filter(
     (m) => m.homeTeamId === teamId || m.awayTeamId === teamId
   );
+}
+
+export function toTeamView(teamId: string | null): MatchTeamView | null {
+  if (!teamId) return null;
+  const team = getTeamById(teamId);
+  if (!team) return null;
+  return { id: team.id, name: team.name, code: team.code };
+}
+
+/** View-models de partidos ordenados cronológicamente. */
+export function getMatchViews(source?: Match[]): MatchView[] {
+  const venueById = new Map(getVenues().map((v) => [v.id, v]));
+  return [...(source ?? getMatches())]
+    .sort((a, b) => a.date.localeCompare(b.date))
+    .map((match) => {
+      const venue = venueById.get(match.venueId);
+      return {
+        id: match.id,
+        phase: match.phase,
+        groupId: match.groupId,
+        date: match.date,
+        venueId: match.venueId,
+        stadium: venue?.stadium ?? match.venueId,
+        city: venue?.city ?? "",
+        home: toTeamView(match.homeTeamId),
+        away: toTeamView(match.awayTeamId),
+        result: match.result,
+        status: match.status,
+      };
+    });
 }
