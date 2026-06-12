@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { motion } from "framer-motion";
 import clsx from "clsx";
 import type { StandingsRowView } from "@/lib/types";
@@ -25,10 +26,13 @@ export default function TeamRow({ row, position }: TeamRowProps) {
       )}
     >
       <span className="text-xs tabular-nums text-text-muted">{position}</span>
-      <span className="flex min-w-0 items-center gap-2">
+      <Link
+        href={`/equipo/${row.teamId}`}
+        className="flex min-w-0 items-center gap-2 transition-colors hover:text-accent"
+      >
         <TeamFlag code={row.code} name={row.name} />
         <span className="truncate text-sm">{row.name}</span>
-      </span>
+      </Link>
       <span className="text-right text-sm tabular-nums text-text-secondary">
         {row.played}
       </span>

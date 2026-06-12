@@ -96,6 +96,26 @@ export function computeStandings(
 }
 
 /**
+ * Récord acumulado de un equipo sobre sus partidos finalizados
+ * (incluye eliminatorias si las jugó).
+ */
+export function computeTeamRecord(
+  teamId: string,
+  matches: Match[]
+): StandingsRow {
+  const row = emptyRow(teamId);
+  for (const match of matches) {
+    if (match.status !== "finished" || !match.result) continue;
+    if (match.homeTeamId === teamId) {
+      applyResult(row, match.result.homeGoals, match.result.awayGoals);
+    } else if (match.awayTeamId === teamId) {
+      applyResult(row, match.result.awayGoals, match.result.homeGoals);
+    }
+  }
+  return row;
+}
+
+/**
  * Los 8 mejores terceros lugares entre todos los grupos,
  * ordenados por Pts, DG, GF.
  */
