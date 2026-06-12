@@ -35,7 +35,11 @@
     "venueId": "bmo-field",
     "homeTeamId": "canada",
     "awayTeamId": "bosnia",
-    "status": "scheduled"
+    "status": "live",
+    "result": {
+      "homeGoals": 0,
+      "awayGoals": 1
+    }
   },
   {
     "id": "M04",
