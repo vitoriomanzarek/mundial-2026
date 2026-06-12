@@ -1,8 +1,17 @@
 # Datos del Mundial 2026
 
-JSON estático editado a mano. Los tipos espejo viven en `src/lib/types.ts` y la validación de integridad en `src/lib/data.ts` (corre al cargar; si algo está mal, el build falla con un error claro).
+JSON estático. Los tipos espejo viven en `src/lib/types.ts` y la validación de integridad en `src/lib/data.ts` (corre al cargar; si algo está mal, el build falla con un error claro).
 
-## Cómo actualizar un resultado
+## Actualización automática
+
+El workflow `.github/workflows/update-results.yml` corre cada 15 minutos
+durante el torneo: consulta football-data.org (secret `FOOTBALL_DATA_TOKEN`),
+ejecuta `scripts/update-results.mjs` y commitea `matches.json` si hay cambios.
+También llena los equipos de eliminatorias cuando la API los conoce. Si una
+tanda de penales llega sin marcador, el log avisa y se corrige a mano. Lo que
+edites a mano se respeta mientras coincida con la API.
+
+## Cómo actualizar un resultado a mano
 
 1. Abrir `matches.json`.
 2. Buscar el partido por `id` (M01 a M104, número oficial FIFA).

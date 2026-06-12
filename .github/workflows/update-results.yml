@@ -1,0 +1,41 @@
+name: Actualizar resultados
+
+on:
+  schedule:
+    - cron: "*/15 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-results
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Consultar resultados y actualizar matches.json
+        run: node scripts/update-results.mjs
+        env:
+          FOOTBALL_DATA_TOKEN: ${{ secrets.FOOTBALL_DATA_TOKEN }}
+
+      - name: Commit y push si hay cambios
+        run: |
+          if git diff --quiet src/data/matches.json; then
+            echo "Sin cambios que publicar"
+          else
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add src/data/matches.json
+            git commit -m "data: resultados actualizados automaticamente"
+            git pull --rebase origin main
+            git push
+          fi
