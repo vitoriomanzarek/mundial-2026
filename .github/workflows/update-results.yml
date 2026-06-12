@@ -2,7 +2,8 @@ name: Actualizar resultados
 
 on:
   schedule:
-    - cron: "*/15 * * * *"
+    # Solo en la franja con partidos (kickoffs entre 16:00Z y 04:00Z)
+    - cron: "*/15 0-6,15-23 * * *"
   workflow_dispatch:
 
 permissions:
@@ -26,6 +27,7 @@ jobs:
         run: node scripts/update-results.mjs
         env:
           FOOTBALL_DATA_TOKEN: ${{ secrets.FOOTBALL_DATA_TOKEN }}
+          FORCE_UPDATE: ${{ github.event_name == 'workflow_dispatch' && '1' || '' }}
 
       - name: Commit y push si hay cambios
         run: |

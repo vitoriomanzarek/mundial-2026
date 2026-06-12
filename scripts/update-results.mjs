@@ -106,6 +106,27 @@ if (Date.now() > TOURNAMENT_END) {
   process.exit(0);
 }
 
+const matchesUrl = new URL("../src/data/matches.json", import.meta.url);
+const matches = JSON.parse(readFileSync(matchesUrl, "utf8"));
+
+// Llamar a la API solo si hay un partido en vivo o uno por empezar:
+// desde 20 min antes del kickoff hasta 4 h después (cubre prórroga,
+// penales y demora de la API en marcar FINISHED).
+const PRE_KICKOFF_MS = 20 * 60 * 1000;
+const POST_KICKOFF_MS = 4 * 60 * 60 * 1000;
+const now = Date.now();
+const activeWindow = matches.some((m) => {
+  if (m.status === "live") return true;
+  if (m.status !== "scheduled") return false;
+  const kickoff = Date.parse(m.date);
+  return now >= kickoff - PRE_KICKOFF_MS && now <= kickoff + POST_KICKOFF_MS;
+});
+
+if (!activeWindow && !process.env.FORCE_UPDATE) {
+  console.log("Sin partidos en curso ni próximos; no se consulta la API.");
+  process.exit(0);
+}
+
 const response = await fetch(API_URL, {
   headers: { "X-Auth-Token": token },
 });
@@ -115,9 +136,6 @@ if (!response.ok) {
 }
 const { matches: apiMatches = [] } = await response.json();
 console.log(`API: ${apiMatches.length} partidos recibidos`);
-
-const matchesUrl = new URL("../src/data/matches.json", import.meta.url);
-const matches = JSON.parse(readFileSync(matchesUrl, "utf8"));
 
 let changes = 0;
 const pendingPenalties = [];
