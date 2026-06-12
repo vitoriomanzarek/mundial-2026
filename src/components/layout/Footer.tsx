@@ -7,7 +7,13 @@ export default function Footer() {
           Unidos y Canadá
         </span>
         <span>
-          Datos editados a mano ·{" "}
+          <a
+            href="/comentarios"
+            className="underline-offset-2 transition-colors hover:text-text-secondary hover:underline"
+          >
+            Comentarios
+          </a>{" "}
+          ·{" "}
           <a
             href="https://github.com/vitoriomanzarek/mundial-2026"
             target="_blank"
