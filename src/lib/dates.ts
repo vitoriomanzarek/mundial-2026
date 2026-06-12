@@ -21,6 +21,20 @@ export function formatDayLong(iso: string, timeZone: string = CDMX_TZ): string {
   return formatted.replace(", ", " ");
 }
 
+/** "29 jun" */
+export function formatDayShort(
+  iso: string,
+  timeZone: string = CDMX_TZ
+): string {
+  return new Intl.DateTimeFormat("es-MX", {
+    timeZone,
+    day: "numeric",
+    month: "short",
+  })
+    .format(new Date(iso))
+    .replace(".", "");
+}
+
 /** "13:00". Sin timeZone usa la del navegador. */
 export function formatTime(iso: string, timeZone?: string): string {
   return new Intl.DateTimeFormat("es-MX", {

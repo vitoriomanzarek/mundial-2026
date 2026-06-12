@@ -96,6 +96,22 @@ export interface MatchView {
   status: MatchStatus;
 }
 
+export interface BracketTeamView {
+  team: MatchTeamView | null;
+  label: string;
+  goals: number | null;
+  penalties: number | null;
+  isWinner: boolean;
+}
+
+export interface BracketMatchView {
+  id: string;
+  date: string;
+  status: MatchStatus;
+  home: BracketTeamView;
+  away: BracketTeamView;
+}
+
 export interface StandingsRow {
   teamId: string;
   played: number;

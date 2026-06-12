@@ -73,9 +73,10 @@ function KickoffTimes({ date }: { date: string }) {
 export default function MatchCard({ match }: { match: MatchView }) {
   return (
     <motion.article
+      id={match.id}
       whileHover={{ y: -2 }}
       transition={{ duration: 0.15 }}
-      className="rounded-xl border border-border bg-surface p-4 shadow-sm hover:shadow-md sm:p-5"
+      className="scroll-mt-20 rounded-xl border border-border bg-surface p-4 shadow-sm hover:shadow-md sm:p-5"
     >
       <div className="mb-3 flex items-baseline justify-between gap-2 text-[11px] uppercase tracking-wider text-text-muted">
         <span className="font-medium">
