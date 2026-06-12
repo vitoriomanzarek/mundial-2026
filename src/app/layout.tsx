@@ -13,9 +13,7 @@ const description =
   "Grupos, partidos y bracket eliminatorio del Mundial 2026 en una vista.";
 
 export const metadata: Metadata = {
-  metadataBase: new URL(
-    "https://mundial-2026-vitoriomanzareks-projects.vercel.app"
-  ),
+  metadataBase: new URL("https://vermundial2026.vercel.app"),
   title: "Mundial 2026",
   description,
   openGraph: {
