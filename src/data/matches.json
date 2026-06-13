@@ -93,9 +93,9 @@
     "venueId": "levis",
     "homeTeamId": "catar",
     "awayTeamId": "suiza",
-    "status": "live",
+    "status": "finished",
     "result": {
-      "homeGoals": 0,
+      "homeGoals": 1,
       "awayGoals": 1
     }
   },
