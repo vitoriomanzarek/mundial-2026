@@ -83,7 +83,11 @@
     "venueId": "metlife",
     "homeTeamId": "brasil",
     "awayTeamId": "marruecos",
-    "status": "scheduled"
+    "status": "live",
+    "result": {
+      "homeGoals": 1,
+      "awayGoals": 1
+    }
   },
   {
     "id": "M08",
