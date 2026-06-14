@@ -143,10 +143,10 @@
     "venueId": "att",
     "homeTeamId": "paises-bajos",
     "awayTeamId": "japon",
-    "status": "live",
+    "status": "finished",
     "result": {
-      "homeGoals": 0,
-      "awayGoals": 0
+      "homeGoals": 2,
+      "awayGoals": 2
     }
   },
   {
