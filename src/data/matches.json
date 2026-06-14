@@ -129,7 +129,11 @@
     "venueId": "nrg",
     "homeTeamId": "alemania",
     "awayTeamId": "curazao",
-    "status": "scheduled"
+    "status": "live",
+    "result": {
+      "homeGoals": 3,
+      "awayGoals": 1
+    }
   },
   {
     "id": "M11",
