@@ -63,7 +63,11 @@
     "venueId": "gillette",
     "homeTeamId": "haiti",
     "awayTeamId": "escocia",
-    "status": "scheduled"
+    "status": "live",
+    "result": {
+      "homeGoals": 0,
+      "awayGoals": 1
+    }
   },
   {
     "id": "M06",
@@ -83,7 +87,7 @@
     "venueId": "metlife",
     "homeTeamId": "brasil",
     "awayTeamId": "marruecos",
-    "status": "live",
+    "status": "finished",
     "result": {
       "homeGoals": 1,
       "awayGoals": 1
