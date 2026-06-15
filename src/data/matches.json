@@ -119,7 +119,11 @@
     "venueId": "lincoln-financial",
     "homeTeamId": "costa-de-marfil",
     "awayTeamId": "ecuador",
-    "status": "scheduled"
+    "status": "finished",
+    "result": {
+      "homeGoals": 1,
+      "awayGoals": 0
+    }
   },
   {
     "id": "M10",
