@@ -161,7 +161,11 @@
     "venueId": "bbva",
     "homeTeamId": "suecia",
     "awayTeamId": "tunez",
-    "status": "scheduled"
+    "status": "finished",
+    "result": {
+      "homeGoals": 5,
+      "awayGoals": 1
+    }
   },
   {
     "id": "M13",
@@ -181,7 +185,11 @@
     "venueId": "mercedes-benz",
     "homeTeamId": "espana",
     "awayTeamId": "cabo-verde",
-    "status": "scheduled"
+    "status": "finished",
+    "result": {
+      "homeGoals": 0,
+      "awayGoals": 0
+    }
   },
   {
     "id": "M15",
