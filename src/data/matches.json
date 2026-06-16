@@ -245,7 +245,11 @@
     "venueId": "gillette",
     "homeTeamId": "irak",
     "awayTeamId": "noruega",
-    "status": "scheduled"
+    "status": "live",
+    "result": {
+      "homeGoals": 1,
+      "awayGoals": 2
+    }
   },
   {
     "id": "M19",
