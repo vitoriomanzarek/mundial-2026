@@ -22,10 +22,11 @@ Trabaja por **fases** según `ARCHITECTURE.md §9`. Al terminar cada fase, haz c
 3. Configura `tailwind.config.ts` con la paleta de `ARCHITECTURE.md §7`.
 4. Configura fuente Inter vía `next/font` en `src/app/layout.tsx`.
 5. Crea `src/app/globals.css` con reset mínimo y `bg-background text-text-primary` en `body`.
-6. Crea `Header.tsx` con nav simple a `/`, `/grupos`, `/partidos`, `/eliminatorias`.
-7. `src/app/page.tsx` con un hero "Mundial 2026" en negro y verde menta.
-8. `git init`, primer commit, crea repo `mundial-2026` en GitHub, push.
-9. Para. Avisa al usuario para que conecte Vercel.
+6. **Favicon:** copia `assets/favicon.svg` → `src/app/icon.svg` y `assets/apple-touch-icon.svg` → `src/app/apple-icon.svg`. Next.js 14 los detecta por convención de nombre, no requiere código extra. Verifica que aparezca el balón verde-menta en la pestaña del navegador.
+7. Crea `Header.tsx` con nav simple a `/`, `/grupos`, `/partidos`, `/eliminatorias`.
+8. `src/app/page.tsx` con un hero "Mundial 2026" en negro y verde menta.
+9. `git init`, primer commit, crea repo `mundial-2026` en GitHub, push.
+10. Para. Avisa al usuario para que conecte Vercel.
 
 ### Fase 2 — Datos
 
