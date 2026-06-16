@@ -203,10 +203,10 @@
     "venueId": "sofi",
     "homeTeamId": "iran",
     "awayTeamId": "nueva-zelanda",
-    "status": "live",
+    "status": "finished",
     "result": {
-      "homeGoals": 1,
-      "awayGoals": 1
+      "homeGoals": 2,
+      "awayGoals": 2
     }
   },
   {
