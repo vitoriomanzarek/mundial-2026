@@ -245,10 +245,10 @@
     "venueId": "gillette",
     "homeTeamId": "irak",
     "awayTeamId": "noruega",
-    "status": "live",
+    "status": "finished",
     "result": {
       "homeGoals": 1,
-      "awayGoals": 2
+      "awayGoals": 4
     }
   },
   {
@@ -259,7 +259,11 @@
     "venueId": "arrowhead",
     "homeTeamId": "argentina",
     "awayTeamId": "argelia",
-    "status": "scheduled"
+    "status": "live",
+    "result": {
+      "homeGoals": 1,
+      "awayGoals": 0
+    }
   },
   {
     "id": "M20",
