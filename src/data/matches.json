@@ -297,10 +297,10 @@
     "venueId": "att",
     "homeTeamId": "inglaterra",
     "awayTeamId": "croacia",
-    "status": "live",
+    "status": "finished",
     "result": {
-      "homeGoals": 0,
-      "awayGoals": 0
+      "homeGoals": 4,
+      "awayGoals": 2
     }
   },
   {
