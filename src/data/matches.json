@@ -259,9 +259,9 @@
     "venueId": "arrowhead",
     "homeTeamId": "argentina",
     "awayTeamId": "argelia",
-    "status": "live",
+    "status": "finished",
     "result": {
-      "homeGoals": 1,
+      "homeGoals": 3,
       "awayGoals": 0
     }
   },
@@ -273,7 +273,11 @@
     "venueId": "levis",
     "homeTeamId": "austria",
     "awayTeamId": "jordania",
-    "status": "scheduled"
+    "status": "finished",
+    "result": {
+      "homeGoals": 3,
+      "awayGoals": 1
+    }
   },
   {
     "id": "M21",
