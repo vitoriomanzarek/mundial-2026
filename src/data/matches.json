@@ -287,7 +287,11 @@
     "venueId": "bmo-field",
     "homeTeamId": "ghana",
     "awayTeamId": "panama",
-    "status": "scheduled"
+    "status": "live",
+    "result": {
+      "homeGoals": 0,
+      "awayGoals": 0
+    }
   },
   {
     "id": "M22",
