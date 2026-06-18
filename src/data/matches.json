@@ -343,7 +343,7 @@
     "venueId": "mercedes-benz",
     "homeTeamId": "chequia",
     "awayTeamId": "sudafrica",
-    "status": "live",
+    "status": "finished",
     "result": {
       "homeGoals": 1,
       "awayGoals": 1
