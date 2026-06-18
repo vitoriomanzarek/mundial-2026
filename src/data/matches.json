@@ -287,9 +287,9 @@
     "venueId": "bmo-field",
     "homeTeamId": "ghana",
     "awayTeamId": "panama",
-    "status": "live",
+    "status": "finished",
     "result": {
-      "homeGoals": 0,
+      "homeGoals": 1,
       "awayGoals": 0
     }
   },
@@ -329,7 +329,11 @@
     "venueId": "azteca",
     "homeTeamId": "uzbekistan",
     "awayTeamId": "colombia",
-    "status": "scheduled"
+    "status": "live",
+    "result": {
+      "homeGoals": 1,
+      "awayGoals": 2
+    }
   },
   {
     "id": "M25",
