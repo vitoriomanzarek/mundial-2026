@@ -357,7 +357,11 @@
     "venueId": "sofi",
     "homeTeamId": "suiza",
     "awayTeamId": "bosnia",
-    "status": "scheduled"
+    "status": "finished",
+    "result": {
+      "homeGoals": 4,
+      "awayGoals": 1
+    }
   },
   {
     "id": "M27",
@@ -367,7 +371,11 @@
     "venueId": "bc-place",
     "homeTeamId": "canada",
     "awayTeamId": "catar",
-    "status": "scheduled"
+    "status": "live",
+    "result": {
+      "homeGoals": 1,
+      "awayGoals": 0
+    }
   },
   {
     "id": "M28",
