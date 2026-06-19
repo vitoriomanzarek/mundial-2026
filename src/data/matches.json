@@ -385,7 +385,11 @@
     "venueId": "akron",
     "homeTeamId": "mexico",
     "awayTeamId": "corea-del-sur",
-    "status": "scheduled"
+    "status": "finished",
+    "result": {
+      "homeGoals": 1,
+      "awayGoals": 0
+    }
   },
   {
     "id": "M29",
@@ -425,7 +429,11 @@
     "venueId": "lumen",
     "homeTeamId": "estados-unidos",
     "awayTeamId": "australia",
-    "status": "scheduled"
+    "status": "live",
+    "result": {
+      "homeGoals": 0,
+      "awayGoals": 0
+    }
   },
   {
     "id": "M33",
