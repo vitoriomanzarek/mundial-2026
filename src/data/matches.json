@@ -429,7 +429,7 @@
     "venueId": "lumen",
     "homeTeamId": "estados-unidos",
     "awayTeamId": "australia",
-    "status": "live",
+    "status": "finished",
     "result": {
       "homeGoals": 2,
       "awayGoals": 0
