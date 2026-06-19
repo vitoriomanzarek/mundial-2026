@@ -371,9 +371,9 @@
     "venueId": "bc-place",
     "homeTeamId": "canada",
     "awayTeamId": "catar",
-    "status": "live",
+    "status": "finished",
     "result": {
-      "homeGoals": 1,
+      "homeGoals": 6,
       "awayGoals": 0
     }
   },
