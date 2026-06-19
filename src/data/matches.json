@@ -409,7 +409,11 @@
     "venueId": "gillette",
     "homeTeamId": "escocia",
     "awayTeamId": "marruecos",
-    "status": "scheduled"
+    "status": "live",
+    "result": {
+      "homeGoals": 0,
+      "awayGoals": 1
+    }
   },
   {
     "id": "M31",
