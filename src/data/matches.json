@@ -455,7 +455,7 @@
     "venueId": "bmo-field",
     "homeTeamId": "alemania",
     "awayTeamId": "costa-de-marfil",
-    "status": "live",
+    "status": "finished",
     "result": {
       "homeGoals": 2,
       "awayGoals": 1
