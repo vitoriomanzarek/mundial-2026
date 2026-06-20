@@ -475,7 +475,11 @@
     "venueId": "nrg",
     "homeTeamId": "paises-bajos",
     "awayTeamId": "suecia",
-    "status": "scheduled"
+    "status": "live",
+    "result": {
+      "homeGoals": 2,
+      "awayGoals": 0
+    }
   },
   {
     "id": "M36",
