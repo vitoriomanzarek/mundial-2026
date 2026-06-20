@@ -399,7 +399,11 @@
     "venueId": "lincoln-financial",
     "homeTeamId": "brasil",
     "awayTeamId": "haiti",
-    "status": "scheduled"
+    "status": "live",
+    "result": {
+      "homeGoals": 3,
+      "awayGoals": 0
+    }
   },
   {
     "id": "M30",
@@ -409,7 +413,7 @@
     "venueId": "gillette",
     "homeTeamId": "escocia",
     "awayTeamId": "marruecos",
-    "status": "live",
+    "status": "finished",
     "result": {
       "homeGoals": 0,
       "awayGoals": 1
