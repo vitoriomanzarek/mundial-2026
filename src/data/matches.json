@@ -399,7 +399,7 @@
     "venueId": "lincoln-financial",
     "homeTeamId": "brasil",
     "awayTeamId": "haiti",
-    "status": "live",
+    "status": "finished",
     "result": {
       "homeGoals": 3,
       "awayGoals": 0
@@ -427,7 +427,11 @@
     "venueId": "levis",
     "homeTeamId": "turquia",
     "awayTeamId": "paraguay",
-    "status": "scheduled"
+    "status": "finished",
+    "result": {
+      "homeGoals": 0,
+      "awayGoals": 1
+    }
   },
   {
     "id": "M32",
