@@ -511,7 +511,11 @@
     "venueId": "hard-rock",
     "homeTeamId": "uruguay",
     "awayTeamId": "cabo-verde",
-    "status": "scheduled"
+    "status": "live",
+    "result": {
+      "homeGoals": 0,
+      "awayGoals": 1
+    }
   },
   {
     "id": "M38",
