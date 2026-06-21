@@ -497,7 +497,11 @@
     "venueId": "bbva",
     "homeTeamId": "tunez",
     "awayTeamId": "japon",
-    "status": "scheduled"
+    "status": "finished",
+    "result": {
+      "homeGoals": 0,
+      "awayGoals": 4
+    }
   },
   {
     "id": "M37",
