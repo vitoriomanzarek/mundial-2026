@@ -523,7 +523,7 @@
     "awayTeamId": "arabia-saudita",
     "status": "finished",
     "result": {
-      "homeGoals": 5,
+      "homeGoals": 4,
       "awayGoals": 0
     }
   },
@@ -535,7 +535,7 @@
     "venueId": "sofi",
     "homeTeamId": "belgica",
     "awayTeamId": "iran",
-    "status": "live",
+    "status": "finished",
     "result": {
       "homeGoals": 0,
       "awayGoals": 0
