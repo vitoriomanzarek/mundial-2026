@@ -521,7 +521,11 @@
     "venueId": "mercedes-benz",
     "homeTeamId": "espana",
     "awayTeamId": "arabia-saudita",
-    "status": "scheduled"
+    "status": "live",
+    "result": {
+      "homeGoals": 3,
+      "awayGoals": 0
+    }
   },
   {
     "id": "M39",
