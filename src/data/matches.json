@@ -469,7 +469,11 @@
     "venueId": "arrowhead",
     "homeTeamId": "ecuador",
     "awayTeamId": "curazao",
-    "status": "scheduled"
+    "status": "finished",
+    "result": {
+      "homeGoals": 0,
+      "awayGoals": 0
+    }
   },
   {
     "id": "M35",
