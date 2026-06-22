@@ -577,7 +577,11 @@
     "venueId": "lincoln-financial",
     "homeTeamId": "francia",
     "awayTeamId": "irak",
-    "status": "scheduled"
+    "status": "live",
+    "result": {
+      "homeGoals": 1,
+      "awayGoals": 0
+    }
   },
   {
     "id": "M43",
@@ -587,9 +591,9 @@
     "venueId": "att",
     "homeTeamId": "argentina",
     "awayTeamId": "austria",
-    "status": "live",
+    "status": "finished",
     "result": {
-      "homeGoals": 1,
+      "homeGoals": 2,
       "awayGoals": 0
     }
   },
