@@ -609,10 +609,10 @@
     "venueId": "levis",
     "homeTeamId": "jordania",
     "awayTeamId": "argelia",
-    "status": "live",
+    "status": "finished",
     "result": {
       "homeGoals": 1,
-      "awayGoals": 1
+      "awayGoals": 2
     }
   },
   {
@@ -911,7 +911,7 @@
     "bracketSlot": "R32-2",
     "date": "2026-06-29T20:30:00Z",
     "venueId": "gillette",
-    "homeTeamId": null,
+    "homeTeamId": "alemania",
     "awayTeamId": null,
     "status": "scheduled"
   },
@@ -961,7 +961,7 @@
     "bracketSlot": "R32-7",
     "date": "2026-07-01T01:00:00Z",
     "venueId": "azteca",
-    "homeTeamId": null,
+    "homeTeamId": "mexico",
     "awayTeamId": null,
     "status": "scheduled"
   },
@@ -981,7 +981,7 @@
     "bracketSlot": "R32-9",
     "date": "2026-07-02T00:00:00Z",
     "venueId": "levis",
-    "homeTeamId": null,
+    "homeTeamId": "estados-unidos",
     "awayTeamId": null,
     "status": "scheduled"
   },
