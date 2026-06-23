@@ -623,7 +623,11 @@
     "venueId": "gillette",
     "homeTeamId": "inglaterra",
     "awayTeamId": "ghana",
-    "status": "scheduled"
+    "status": "live",
+    "result": {
+      "homeGoals": 0,
+      "awayGoals": 0
+    }
   },
   {
     "id": "M46",
