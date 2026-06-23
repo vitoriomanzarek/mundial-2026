@@ -643,9 +643,9 @@
     "venueId": "nrg",
     "homeTeamId": "portugal",
     "awayTeamId": "uzbekistan",
-    "status": "live",
+    "status": "finished",
     "result": {
-      "homeGoals": 1,
+      "homeGoals": 5,
       "awayGoals": 0
     }
   },
