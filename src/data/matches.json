@@ -567,7 +567,11 @@
     "venueId": "metlife",
     "homeTeamId": "noruega",
     "awayTeamId": "senegal",
-    "status": "scheduled"
+    "status": "live",
+    "result": {
+      "homeGoals": 0,
+      "awayGoals": 0
+    }
   },
   {
     "id": "M42",
@@ -579,7 +583,7 @@
     "awayTeamId": "irak",
     "status": "live",
     "result": {
-      "homeGoals": 1,
+      "homeGoals": 2,
       "awayGoals": 0
     }
   },
