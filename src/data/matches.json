@@ -637,7 +637,11 @@
     "venueId": "bmo-field",
     "homeTeamId": "panama",
     "awayTeamId": "croacia",
-    "status": "scheduled"
+    "status": "finished",
+    "result": {
+      "homeGoals": 0,
+      "awayGoals": 1
+    }
   },
   {
     "id": "M47",
