@@ -699,7 +699,11 @@
     "venueId": "bc-place",
     "homeTeamId": "suiza",
     "awayTeamId": "canada",
-    "status": "scheduled"
+    "status": "live",
+    "result": {
+      "homeGoals": 2,
+      "awayGoals": 1
+    }
   },
   {
     "id": "M52",
@@ -709,7 +713,11 @@
     "venueId": "lumen",
     "homeTeamId": "bosnia",
     "awayTeamId": "catar",
-    "status": "scheduled"
+    "status": "live",
+    "result": {
+      "homeGoals": 3,
+      "awayGoals": 1
+    }
   },
   {
     "id": "M53",
@@ -1047,7 +1055,7 @@
     "bracketSlot": "R32-14",
     "date": "2026-07-03T22:00:00Z",
     "venueId": "hard-rock",
-    "homeTeamId": null,
+    "homeTeamId": "argentina",
     "awayTeamId": null,
     "status": "scheduled"
   },
