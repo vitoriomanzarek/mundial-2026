@@ -679,7 +679,11 @@
     "venueId": "hard-rock",
     "homeTeamId": "escocia",
     "awayTeamId": "brasil",
-    "status": "scheduled"
+    "status": "live",
+    "result": {
+      "homeGoals": 0,
+      "awayGoals": 3
+    }
   },
   {
     "id": "M50",
@@ -689,7 +693,11 @@
     "venueId": "mercedes-benz",
     "homeTeamId": "marruecos",
     "awayTeamId": "haiti",
-    "status": "scheduled"
+    "status": "live",
+    "result": {
+      "homeGoals": 2,
+      "awayGoals": 2
+    }
   },
   {
     "id": "M51",
