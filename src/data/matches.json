@@ -735,10 +735,10 @@
     "venueId": "azteca",
     "homeTeamId": "chequia",
     "awayTeamId": "mexico",
-    "status": "live",
+    "status": "finished",
     "result": {
       "homeGoals": 0,
-      "awayGoals": 0
+      "awayGoals": 3
     }
   },
   {
@@ -749,9 +749,9 @@
     "venueId": "bbva",
     "homeTeamId": "sudafrica",
     "awayTeamId": "corea-del-sur",
-    "status": "live",
+    "status": "finished",
     "result": {
-      "homeGoals": 0,
+      "homeGoals": 1,
       "awayGoals": 0
     }
   },
