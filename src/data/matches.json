@@ -679,7 +679,7 @@
     "venueId": "hard-rock",
     "homeTeamId": "escocia",
     "awayTeamId": "brasil",
-    "status": "live",
+    "status": "finished",
     "result": {
       "homeGoals": 0,
       "awayGoals": 3
@@ -693,9 +693,9 @@
     "venueId": "mercedes-benz",
     "homeTeamId": "marruecos",
     "awayTeamId": "haiti",
-    "status": "live",
+    "status": "finished",
     "result": {
-      "homeGoals": 2,
+      "homeGoals": 4,
       "awayGoals": 2
     }
   },
@@ -735,7 +735,11 @@
     "venueId": "azteca",
     "homeTeamId": "chequia",
     "awayTeamId": "mexico",
-    "status": "scheduled"
+    "status": "live",
+    "result": {
+      "homeGoals": 0,
+      "awayGoals": 0
+    }
   },
   {
     "id": "M54",
@@ -745,7 +749,11 @@
     "venueId": "bbva",
     "homeTeamId": "sudafrica",
     "awayTeamId": "corea-del-sur",
-    "status": "scheduled"
+    "status": "live",
+    "result": {
+      "homeGoals": 0,
+      "awayGoals": 0
+    }
   },
   {
     "id": "M55",
