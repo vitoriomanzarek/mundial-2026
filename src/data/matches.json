@@ -763,10 +763,10 @@
     "venueId": "lincoln-financial",
     "homeTeamId": "curazao",
     "awayTeamId": "costa-de-marfil",
-    "status": "live",
+    "status": "finished",
     "result": {
       "homeGoals": 0,
-      "awayGoals": 1
+      "awayGoals": 2
     }
   },
   {
@@ -777,9 +777,9 @@
     "venueId": "metlife",
     "homeTeamId": "ecuador",
     "awayTeamId": "alemania",
-    "status": "live",
+    "status": "finished",
     "result": {
-      "homeGoals": 1,
+      "homeGoals": 2,
       "awayGoals": 1
     }
   },
