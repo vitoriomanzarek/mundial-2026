@@ -847,7 +847,11 @@
     "venueId": "gillette",
     "homeTeamId": "noruega",
     "awayTeamId": "francia",
-    "status": "scheduled"
+    "status": "live",
+    "result": {
+      "homeGoals": 1,
+      "awayGoals": 3
+    }
   },
   {
     "id": "M62",
@@ -857,7 +861,11 @@
     "venueId": "bmo-field",
     "homeTeamId": "senegal",
     "awayTeamId": "irak",
-    "status": "scheduled"
+    "status": "live",
+    "result": {
+      "homeGoals": 4,
+      "awayGoals": 0
+    }
   },
   {
     "id": "M63",
