@@ -965,8 +965,8 @@
     "bracketSlot": "R32-1",
     "date": "2026-06-28T19:00:00Z",
     "venueId": "sofi",
-    "homeTeamId": null,
-    "awayTeamId": null,
+    "homeTeamId": "sudafrica",
+    "awayTeamId": "canada",
     "status": "scheduled"
   },
   {
@@ -985,8 +985,8 @@
     "bracketSlot": "R32-3",
     "date": "2026-06-30T01:00:00Z",
     "venueId": "bbva",
-    "homeTeamId": null,
-    "awayTeamId": null,
+    "homeTeamId": "paises-bajos",
+    "awayTeamId": "marruecos",
     "status": "scheduled"
   },
   {
@@ -995,8 +995,8 @@
     "bracketSlot": "R32-4",
     "date": "2026-06-29T17:00:00Z",
     "venueId": "nrg",
-    "homeTeamId": null,
-    "awayTeamId": null,
+    "homeTeamId": "brasil",
+    "awayTeamId": "japon",
     "status": "scheduled"
   },
   {
@@ -1046,7 +1046,7 @@
     "date": "2026-07-02T00:00:00Z",
     "venueId": "levis",
     "homeTeamId": "estados-unidos",
-    "awayTeamId": null,
+    "awayTeamId": "bosnia",
     "status": "scheduled"
   },
   {
@@ -1085,7 +1085,7 @@
     "bracketSlot": "R32-13",
     "date": "2026-07-03T03:00:00Z",
     "venueId": "bc-place",
-    "homeTeamId": null,
+    "homeTeamId": "suiza",
     "awayTeamId": null,
     "status": "scheduled"
   },
@@ -1115,7 +1115,7 @@
     "bracketSlot": "R32-16",
     "date": "2026-07-03T18:00:00Z",
     "venueId": "att",
-    "homeTeamId": null,
+    "homeTeamId": "australia",
     "awayTeamId": null,
     "status": "scheduled"
   },
