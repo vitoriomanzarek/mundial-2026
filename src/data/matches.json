@@ -791,10 +791,10 @@
     "venueId": "att",
     "homeTeamId": "japon",
     "awayTeamId": "suecia",
-    "status": "live",
+    "status": "finished",
     "result": {
-      "homeGoals": 0,
-      "awayGoals": 0
+      "homeGoals": 1,
+      "awayGoals": 1
     }
   },
   {
@@ -805,10 +805,10 @@
     "venueId": "arrowhead",
     "homeTeamId": "tunez",
     "awayTeamId": "paises-bajos",
-    "status": "live",
+    "status": "finished",
     "result": {
-      "homeGoals": 0,
-      "awayGoals": 2
+      "homeGoals": 1,
+      "awayGoals": 3
     }
   },
   {
@@ -819,7 +819,11 @@
     "venueId": "sofi",
     "homeTeamId": "turquia",
     "awayTeamId": "estados-unidos",
-    "status": "scheduled"
+    "status": "finished",
+    "result": {
+      "homeGoals": 3,
+      "awayGoals": 2
+    }
   },
   {
     "id": "M60",
@@ -829,7 +833,11 @@
     "venueId": "levis",
     "homeTeamId": "paraguay",
     "awayTeamId": "australia",
-    "status": "scheduled"
+    "status": "finished",
+    "result": {
+      "homeGoals": 0,
+      "awayGoals": 0
+    }
   },
   {
     "id": "M61",
