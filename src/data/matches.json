@@ -791,7 +791,11 @@
     "venueId": "att",
     "homeTeamId": "japon",
     "awayTeamId": "suecia",
-    "status": "scheduled"
+    "status": "live",
+    "result": {
+      "homeGoals": 0,
+      "awayGoals": 0
+    }
   },
   {
     "id": "M58",
@@ -801,7 +805,11 @@
     "venueId": "arrowhead",
     "homeTeamId": "tunez",
     "awayTeamId": "paises-bajos",
-    "status": "scheduled"
+    "status": "live",
+    "result": {
+      "homeGoals": 0,
+      "awayGoals": 2
+    }
   },
   {
     "id": "M59",
