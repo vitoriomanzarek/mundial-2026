@@ -931,7 +931,11 @@
     "venueId": "metlife",
     "homeTeamId": "panama",
     "awayTeamId": "inglaterra",
-    "status": "scheduled"
+    "status": "live",
+    "result": {
+      "homeGoals": 0,
+      "awayGoals": 0
+    }
   },
   {
     "id": "M68",
@@ -1039,7 +1043,7 @@
     "bracketSlot": "R32-6",
     "date": "2026-06-30T17:00:00Z",
     "venueId": "att",
-    "homeTeamId": null,
+    "homeTeamId": "costa-de-marfil",
     "awayTeamId": null,
     "status": "scheduled"
   },
