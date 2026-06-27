@@ -931,7 +931,7 @@
     "venueId": "metlife",
     "homeTeamId": "panama",
     "awayTeamId": "inglaterra",
-    "status": "live",
+    "status": "finished",
     "result": {
       "homeGoals": 0,
       "awayGoals": 2
@@ -945,10 +945,10 @@
     "venueId": "lincoln-financial",
     "homeTeamId": "croacia",
     "awayTeamId": "ghana",
-    "status": "live",
+    "status": "finished",
     "result": {
-      "homeGoals": 1,
-      "awayGoals": 0
+      "homeGoals": 2,
+      "awayGoals": 1
     }
   },
   {
