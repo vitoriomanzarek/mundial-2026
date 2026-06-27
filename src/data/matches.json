@@ -895,7 +895,11 @@
     "venueId": "nrg",
     "homeTeamId": "cabo-verde",
     "awayTeamId": "arabia-saudita",
-    "status": "scheduled"
+    "status": "live",
+    "result": {
+      "homeGoals": 0,
+      "awayGoals": 0
+    }
   },
   {
     "id": "M66",
@@ -905,7 +909,11 @@
     "venueId": "akron",
     "homeTeamId": "uruguay",
     "awayTeamId": "espana",
-    "status": "scheduled"
+    "status": "live",
+    "result": {
+      "homeGoals": 0,
+      "awayGoals": 1
+    }
   },
   {
     "id": "M67",
