@@ -959,7 +959,11 @@
     "venueId": "arrowhead",
     "homeTeamId": "argelia",
     "awayTeamId": "austria",
-    "status": "scheduled"
+    "status": "finished",
+    "result": {
+      "homeGoals": 3,
+      "awayGoals": 3
+    }
   },
   {
     "id": "M70",
@@ -969,7 +973,11 @@
     "venueId": "att",
     "homeTeamId": "jordania",
     "awayTeamId": "argentina",
-    "status": "scheduled"
+    "status": "finished",
+    "result": {
+      "homeGoals": 1,
+      "awayGoals": 3
+    }
   },
   {
     "id": "M71",
@@ -1016,7 +1024,7 @@
     "date": "2026-06-29T20:30:00Z",
     "venueId": "gillette",
     "homeTeamId": "alemania",
-    "awayTeamId": null,
+    "awayTeamId": "paraguay",
     "status": "scheduled"
   },
   {
@@ -1045,8 +1053,8 @@
     "bracketSlot": "R32-5",
     "date": "2026-06-30T21:00:00Z",
     "venueId": "metlife",
-    "homeTeamId": null,
-    "awayTeamId": null,
+    "homeTeamId": "francia",
+    "awayTeamId": "suecia",
     "status": "scheduled"
   },
   {
@@ -1056,7 +1064,7 @@
     "date": "2026-06-30T17:00:00Z",
     "venueId": "att",
     "homeTeamId": "costa-de-marfil",
-    "awayTeamId": null,
+    "awayTeamId": "noruega",
     "status": "scheduled"
   },
   {
@@ -1066,7 +1074,7 @@
     "date": "2026-07-01T01:00:00Z",
     "venueId": "azteca",
     "homeTeamId": "mexico",
-    "awayTeamId": null,
+    "awayTeamId": "ecuador",
     "status": "scheduled"
   },
   {
@@ -1075,8 +1083,8 @@
     "bracketSlot": "R32-8",
     "date": "2026-07-01T16:00:00Z",
     "venueId": "mercedes-benz",
-    "homeTeamId": null,
-    "awayTeamId": null,
+    "homeTeamId": "inglaterra",
+    "awayTeamId": "rd-congo",
     "status": "scheduled"
   },
   {
@@ -1095,8 +1103,8 @@
     "bracketSlot": "R32-10",
     "date": "2026-07-01T20:00:00Z",
     "venueId": "lumen",
-    "homeTeamId": null,
-    "awayTeamId": null,
+    "homeTeamId": "belgica",
+    "awayTeamId": "senegal",
     "status": "scheduled"
   },
   {
@@ -1105,8 +1113,8 @@
     "bracketSlot": "R32-11",
     "date": "2026-07-02T23:00:00Z",
     "venueId": "bmo-field",
-    "homeTeamId": null,
-    "awayTeamId": null,
+    "homeTeamId": "portugal",
+    "awayTeamId": "croacia",
     "status": "scheduled"
   },
   {
@@ -1115,8 +1123,8 @@
     "bracketSlot": "R32-12",
     "date": "2026-07-02T19:00:00Z",
     "venueId": "sofi",
-    "homeTeamId": null,
-    "awayTeamId": null,
+    "homeTeamId": "espana",
+    "awayTeamId": "austria",
     "status": "scheduled"
   },
   {
@@ -1126,7 +1134,7 @@
     "date": "2026-07-03T03:00:00Z",
     "venueId": "bc-place",
     "homeTeamId": "suiza",
-    "awayTeamId": null,
+    "awayTeamId": "argelia",
     "status": "scheduled"
   },
   {
@@ -1136,7 +1144,7 @@
     "date": "2026-07-03T22:00:00Z",
     "venueId": "hard-rock",
     "homeTeamId": "argentina",
-    "awayTeamId": null,
+    "awayTeamId": "cabo-verde",
     "status": "scheduled"
   },
   {
@@ -1145,8 +1153,8 @@
     "bracketSlot": "R32-15",
     "date": "2026-07-04T01:30:00Z",
     "venueId": "arrowhead",
-    "homeTeamId": null,
-    "awayTeamId": null,
+    "homeTeamId": "colombia",
+    "awayTeamId": "ghana",
     "status": "scheduled"
   },
   {
@@ -1156,7 +1164,7 @@
     "date": "2026-07-03T18:00:00Z",
     "venueId": "att",
     "homeTeamId": "australia",
-    "awayTeamId": null,
+    "awayTeamId": "egipto",
     "status": "scheduled"
   },
   {
