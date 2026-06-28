@@ -1015,7 +1015,11 @@
     "venueId": "sofi",
     "homeTeamId": "sudafrica",
     "awayTeamId": "canada",
-    "status": "scheduled"
+    "status": "live",
+    "result": {
+      "homeGoals": 0,
+      "awayGoals": 0
+    }
   },
   {
     "id": "M74",
