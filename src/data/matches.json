@@ -1029,7 +1029,11 @@
     "venueId": "gillette",
     "homeTeamId": "alemania",
     "awayTeamId": "paraguay",
-    "status": "scheduled"
+    "status": "live",
+    "result": {
+      "homeGoals": 0,
+      "awayGoals": 0
+    }
   },
   {
     "id": "M75",
