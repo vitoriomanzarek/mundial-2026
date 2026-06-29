@@ -1049,9 +1049,9 @@
     "venueId": "nrg",
     "homeTeamId": "brasil",
     "awayTeamId": "japon",
-    "status": "live",
+    "status": "finished",
     "result": {
-      "homeGoals": 0,
+      "homeGoals": 2,
       "awayGoals": 1
     }
   },
