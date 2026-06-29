@@ -1049,7 +1049,11 @@
     "venueId": "nrg",
     "homeTeamId": "brasil",
     "awayTeamId": "japon",
-    "status": "scheduled"
+    "status": "live",
+    "result": {
+      "homeGoals": 0,
+      "awayGoals": 1
+    }
   },
   {
     "id": "M77",
@@ -1187,7 +1191,7 @@
     "bracketSlot": "R16-2",
     "date": "2026-07-04T17:00:00Z",
     "venueId": "nrg",
-    "homeTeamId": null,
+    "homeTeamId": "canada",
     "awayTeamId": null,
     "status": "scheduled"
   },
