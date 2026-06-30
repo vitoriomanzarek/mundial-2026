@@ -1034,7 +1034,7 @@
       "homeGoals": 4,
       "awayGoals": 5,
       "penalties": {
-        "home": 4,
+        "home": 3,
         "away": 4
       }
     }
@@ -1047,10 +1047,14 @@
     "venueId": "bbva",
     "homeTeamId": "paises-bajos",
     "awayTeamId": "marruecos",
-    "status": "live",
+    "status": "finished",
     "result": {
-      "homeGoals": 0,
-      "awayGoals": 0
+      "homeGoals": 3,
+      "awayGoals": 4,
+      "penalties": {
+        "home": 2,
+        "away": 3
+      }
     }
   },
   {
@@ -1193,7 +1197,7 @@
     "bracketSlot": "R16-1",
     "date": "2026-07-04T21:00:00Z",
     "venueId": "lincoln-financial",
-    "homeTeamId": null,
+    "homeTeamId": "paraguay",
     "awayTeamId": null,
     "status": "scheduled"
   },
@@ -1204,7 +1208,7 @@
     "date": "2026-07-04T17:00:00Z",
     "venueId": "nrg",
     "homeTeamId": "canada",
-    "awayTeamId": null,
+    "awayTeamId": "marruecos",
     "status": "scheduled"
   },
   {
@@ -1213,7 +1217,7 @@
     "bracketSlot": "R16-3",
     "date": "2026-07-05T20:00:00Z",
     "venueId": "metlife",
-    "homeTeamId": null,
+    "homeTeamId": "brasil",
     "awayTeamId": null,
     "status": "scheduled"
   },
