@@ -1089,7 +1089,11 @@
     "venueId": "att",
     "homeTeamId": "costa-de-marfil",
     "awayTeamId": "noruega",
-    "status": "scheduled"
+    "status": "finished",
+    "result": {
+      "homeGoals": 1,
+      "awayGoals": 2
+    }
   },
   {
     "id": "M79",
