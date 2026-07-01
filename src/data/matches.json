@@ -1121,9 +1121,9 @@
     "venueId": "mercedes-benz",
     "homeTeamId": "inglaterra",
     "awayTeamId": "rd-congo",
-    "status": "live",
+    "status": "finished",
     "result": {
-      "homeGoals": 0,
+      "homeGoals": 2,
       "awayGoals": 1
     }
   },
