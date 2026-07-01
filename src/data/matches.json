@@ -1107,7 +1107,7 @@
     "venueId": "azteca",
     "homeTeamId": "mexico",
     "awayTeamId": "ecuador",
-    "status": "live",
+    "status": "finished",
     "result": {
       "homeGoals": 2,
       "awayGoals": 0
@@ -1210,7 +1210,7 @@
     "date": "2026-07-04T21:00:00Z",
     "venueId": "lincoln-financial",
     "homeTeamId": "paraguay",
-    "awayTeamId": null,
+    "awayTeamId": "francia",
     "status": "scheduled"
   },
   {
@@ -1230,7 +1230,7 @@
     "date": "2026-07-05T20:00:00Z",
     "venueId": "metlife",
     "homeTeamId": "brasil",
-    "awayTeamId": null,
+    "awayTeamId": "noruega",
     "status": "scheduled"
   },
   {
