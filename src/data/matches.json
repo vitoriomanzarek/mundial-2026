@@ -1107,7 +1107,11 @@
     "venueId": "azteca",
     "homeTeamId": "mexico",
     "awayTeamId": "ecuador",
-    "status": "scheduled"
+    "status": "live",
+    "result": {
+      "homeGoals": 2,
+      "awayGoals": 0
+    }
   },
   {
     "id": "M80",
