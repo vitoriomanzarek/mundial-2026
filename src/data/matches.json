@@ -1145,7 +1145,11 @@
     "venueId": "lumen",
     "homeTeamId": "belgica",
     "awayTeamId": "senegal",
-    "status": "scheduled"
+    "status": "live",
+    "result": {
+      "homeGoals": 0,
+      "awayGoals": 1
+    }
   },
   {
     "id": "M83",
