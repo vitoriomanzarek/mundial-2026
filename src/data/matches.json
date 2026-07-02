@@ -1173,9 +1173,9 @@
     "venueId": "sofi",
     "homeTeamId": "espana",
     "awayTeamId": "austria",
-    "status": "live",
+    "status": "finished",
     "result": {
-      "homeGoals": 1,
+      "homeGoals": 3,
       "awayGoals": 0
     }
   },
