@@ -1173,7 +1173,11 @@
     "venueId": "sofi",
     "homeTeamId": "espana",
     "awayTeamId": "austria",
-    "status": "scheduled"
+    "status": "live",
+    "result": {
+      "homeGoals": 1,
+      "awayGoals": 0
+    }
   },
   {
     "id": "M85",
@@ -1251,8 +1255,8 @@
     "bracketSlot": "R16-4",
     "date": "2026-07-06T00:00:00Z",
     "venueId": "azteca",
-    "homeTeamId": null,
-    "awayTeamId": null,
+    "homeTeamId": "mexico",
+    "awayTeamId": "inglaterra",
     "status": "scheduled"
   },
   {
@@ -1271,8 +1275,8 @@
     "bracketSlot": "R16-6",
     "date": "2026-07-07T00:00:00Z",
     "venueId": "lumen",
-    "homeTeamId": null,
-    "awayTeamId": null,
+    "homeTeamId": "estados-unidos",
+    "awayTeamId": "belgica",
     "status": "scheduled"
   },
   {
