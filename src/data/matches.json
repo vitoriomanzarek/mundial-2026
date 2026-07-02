@@ -1135,7 +1135,11 @@
     "venueId": "levis",
     "homeTeamId": "estados-unidos",
     "awayTeamId": "bosnia",
-    "status": "scheduled"
+    "status": "finished",
+    "result": {
+      "homeGoals": 2,
+      "awayGoals": 0
+    }
   },
   {
     "id": "M82",
