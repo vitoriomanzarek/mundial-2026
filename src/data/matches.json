@@ -1225,7 +1225,11 @@
     "venueId": "att",
     "homeTeamId": "australia",
     "awayTeamId": "egipto",
-    "status": "scheduled"
+    "status": "live",
+    "result": {
+      "homeGoals": 1,
+      "awayGoals": 1
+    }
   },
   {
     "id": "M89",
