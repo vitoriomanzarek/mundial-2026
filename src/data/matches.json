@@ -1163,7 +1163,11 @@
     "venueId": "bmo-field",
     "homeTeamId": "portugal",
     "awayTeamId": "croacia",
-    "status": "scheduled"
+    "status": "live",
+    "result": {
+      "homeGoals": 0,
+      "awayGoals": 0
+    }
   },
   {
     "id": "M84",
