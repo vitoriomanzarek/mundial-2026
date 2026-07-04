@@ -1238,7 +1238,7 @@
       "homeGoals": 3,
       "awayGoals": 5,
       "penalties": {
-        "home": 4,
+        "home": 2,
         "away": 4
       }
     }
@@ -1261,7 +1261,11 @@
     "venueId": "nrg",
     "homeTeamId": "canada",
     "awayTeamId": "marruecos",
-    "status": "scheduled"
+    "status": "live",
+    "result": {
+      "homeGoals": 0,
+      "awayGoals": 0
+    }
   },
   {
     "id": "M91",
@@ -1289,8 +1293,8 @@
     "bracketSlot": "R16-5",
     "date": "2026-07-06T19:00:00Z",
     "venueId": "att",
-    "homeTeamId": null,
-    "awayTeamId": null,
+    "homeTeamId": "portugal",
+    "awayTeamId": "espana",
     "status": "scheduled"
   },
   {
@@ -1309,8 +1313,8 @@
     "bracketSlot": "R16-7",
     "date": "2026-07-07T16:00:00Z",
     "venueId": "mercedes-benz",
-    "homeTeamId": null,
-    "awayTeamId": null,
+    "homeTeamId": "argentina",
+    "awayTeamId": "egipto",
     "status": "scheduled"
   },
   {
@@ -1319,8 +1323,8 @@
     "bracketSlot": "R16-8",
     "date": "2026-07-07T20:00:00Z",
     "venueId": "bc-place",
-    "homeTeamId": null,
-    "awayTeamId": null,
+    "homeTeamId": "suiza",
+    "awayTeamId": "colombia",
     "status": "scheduled"
   },
   {
