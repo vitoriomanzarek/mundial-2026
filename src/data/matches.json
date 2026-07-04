@@ -1205,10 +1205,10 @@
     "venueId": "hard-rock",
     "homeTeamId": "argentina",
     "awayTeamId": "cabo-verde",
-    "status": "live",
+    "status": "finished",
     "result": {
-      "homeGoals": 1,
-      "awayGoals": 1
+      "homeGoals": 3,
+      "awayGoals": 2
     }
   },
   {
@@ -1219,7 +1219,11 @@
     "venueId": "arrowhead",
     "homeTeamId": "colombia",
     "awayTeamId": "ghana",
-    "status": "scheduled"
+    "status": "live",
+    "result": {
+      "homeGoals": 1,
+      "awayGoals": 0
+    }
   },
   {
     "id": "M88",
