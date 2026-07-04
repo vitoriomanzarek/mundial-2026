@@ -1261,10 +1261,10 @@
     "venueId": "nrg",
     "homeTeamId": "canada",
     "awayTeamId": "marruecos",
-    "status": "live",
+    "status": "finished",
     "result": {
       "homeGoals": 0,
-      "awayGoals": 1
+      "awayGoals": 3
     }
   },
   {
