@@ -1251,7 +1251,11 @@
     "venueId": "lincoln-financial",
     "homeTeamId": "paraguay",
     "awayTeamId": "francia",
-    "status": "scheduled"
+    "status": "live",
+    "result": {
+      "homeGoals": 0,
+      "awayGoals": 1
+    }
   },
   {
     "id": "M90",
