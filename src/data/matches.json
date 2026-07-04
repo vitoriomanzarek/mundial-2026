@@ -1219,7 +1219,7 @@
     "venueId": "arrowhead",
     "homeTeamId": "colombia",
     "awayTeamId": "ghana",
-    "status": "live",
+    "status": "finished",
     "result": {
       "homeGoals": 1,
       "awayGoals": 0
