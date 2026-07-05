@@ -1337,8 +1337,8 @@
     "bracketSlot": "QF-1",
     "date": "2026-07-09T20:00:00Z",
     "venueId": "gillette",
-    "homeTeamId": null,
-    "awayTeamId": null,
+    "homeTeamId": "francia",
+    "awayTeamId": "marruecos",
     "status": "scheduled"
   },
   {
