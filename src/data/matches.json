@@ -1293,10 +1293,10 @@
     "venueId": "azteca",
     "homeTeamId": "mexico",
     "awayTeamId": "inglaterra",
-    "status": "live",
+    "status": "finished",
     "result": {
-      "homeGoals": 0,
-      "awayGoals": 0
+      "homeGoals": 2,
+      "awayGoals": 3
     }
   },
   {
