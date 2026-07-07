@@ -1349,7 +1349,11 @@
     "venueId": "bc-place",
     "homeTeamId": "suiza",
     "awayTeamId": "colombia",
-    "status": "scheduled"
+    "status": "live",
+    "result": {
+      "homeGoals": 0,
+      "awayGoals": 0
+    }
   },
   {
     "id": "M97",
