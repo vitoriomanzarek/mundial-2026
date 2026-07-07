@@ -1321,7 +1321,11 @@
     "venueId": "lumen",
     "homeTeamId": "estados-unidos",
     "awayTeamId": "belgica",
-    "status": "scheduled"
+    "status": "live",
+    "result": {
+      "homeGoals": 1,
+      "awayGoals": 3
+    }
   },
   {
     "id": "M95",
