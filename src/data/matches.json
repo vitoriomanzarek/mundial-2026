@@ -1335,7 +1335,11 @@
     "venueId": "mercedes-benz",
     "homeTeamId": "argentina",
     "awayTeamId": "egipto",
-    "status": "scheduled"
+    "status": "live",
+    "result": {
+      "homeGoals": 0,
+      "awayGoals": 1
+    }
   },
   {
     "id": "M96",
@@ -1363,8 +1367,8 @@
     "bracketSlot": "QF-2",
     "date": "2026-07-10T19:00:00Z",
     "venueId": "sofi",
-    "homeTeamId": null,
-    "awayTeamId": null,
+    "homeTeamId": "espana",
+    "awayTeamId": "belgica",
     "status": "scheduled"
   },
   {
