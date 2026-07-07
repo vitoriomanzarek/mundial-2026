@@ -1335,10 +1335,10 @@
     "venueId": "mercedes-benz",
     "homeTeamId": "argentina",
     "awayTeamId": "egipto",
-    "status": "live",
+    "status": "finished",
     "result": {
-      "homeGoals": 0,
-      "awayGoals": 1
+      "homeGoals": 3,
+      "awayGoals": 2
     }
   },
   {
