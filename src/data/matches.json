@@ -1367,9 +1367,9 @@
     "venueId": "gillette",
     "homeTeamId": "francia",
     "awayTeamId": "marruecos",
-    "status": "live",
+    "status": "finished",
     "result": {
-      "homeGoals": 0,
+      "homeGoals": 2,
       "awayGoals": 0
     }
   },
