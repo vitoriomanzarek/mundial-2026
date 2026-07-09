@@ -1351,8 +1351,12 @@
     "awayTeamId": "colombia",
     "status": "finished",
     "result": {
-      "homeGoals": 0,
-      "awayGoals": 0
+      "homeGoals": 4,
+      "awayGoals": 3,
+      "penalties": {
+        "home": 4,
+        "away": 3
+      }
     }
   },
   {
@@ -1363,7 +1367,11 @@
     "venueId": "gillette",
     "homeTeamId": "francia",
     "awayTeamId": "marruecos",
-    "status": "scheduled"
+    "status": "live",
+    "result": {
+      "homeGoals": 0,
+      "awayGoals": 0
+    }
   },
   {
     "id": "M98",
@@ -1391,8 +1399,8 @@
     "bracketSlot": "QF-4",
     "date": "2026-07-12T01:00:00Z",
     "venueId": "arrowhead",
-    "homeTeamId": null,
-    "awayTeamId": null,
+    "homeTeamId": "argentina",
+    "awayTeamId": "suiza",
     "status": "scheduled"
   },
   {
