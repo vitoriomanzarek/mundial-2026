@@ -1381,7 +1381,11 @@
     "venueId": "sofi",
     "homeTeamId": "espana",
     "awayTeamId": "belgica",
-    "status": "scheduled"
+    "status": "live",
+    "result": {
+      "homeGoals": 1,
+      "awayGoals": 1
+    }
   },
   {
     "id": "M99",
@@ -1409,7 +1413,7 @@
     "bracketSlot": "SF-1",
     "date": "2026-07-14T19:00:00Z",
     "venueId": "att",
-    "homeTeamId": null,
+    "homeTeamId": "francia",
     "awayTeamId": null,
     "status": "scheduled"
   },
