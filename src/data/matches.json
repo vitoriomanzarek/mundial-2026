@@ -1381,9 +1381,9 @@
     "venueId": "sofi",
     "homeTeamId": "espana",
     "awayTeamId": "belgica",
-    "status": "live",
+    "status": "finished",
     "result": {
-      "homeGoals": 1,
+      "homeGoals": 2,
       "awayGoals": 1
     }
   },
