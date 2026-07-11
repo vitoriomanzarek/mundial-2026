@@ -1395,7 +1395,11 @@
     "venueId": "hard-rock",
     "homeTeamId": "noruega",
     "awayTeamId": "inglaterra",
-    "status": "scheduled"
+    "status": "live",
+    "result": {
+      "homeGoals": 1,
+      "awayGoals": 1
+    }
   },
   {
     "id": "M100",
