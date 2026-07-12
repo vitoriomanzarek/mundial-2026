@@ -1409,7 +1409,11 @@
     "venueId": "arrowhead",
     "homeTeamId": "argentina",
     "awayTeamId": "suiza",
-    "status": "scheduled"
+    "status": "finished",
+    "result": {
+      "homeGoals": 3,
+      "awayGoals": 1
+    }
   },
   {
     "id": "M101",
