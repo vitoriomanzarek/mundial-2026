@@ -1423,10 +1423,10 @@
     "venueId": "att",
     "homeTeamId": "francia",
     "awayTeamId": "espana",
-    "status": "live",
+    "status": "finished",
     "result": {
       "homeGoals": 0,
-      "awayGoals": 1
+      "awayGoals": 2
     }
   },
   {
