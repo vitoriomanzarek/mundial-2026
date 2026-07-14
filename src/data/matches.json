@@ -1431,8 +1431,8 @@
     "bracketSlot": "SF-2",
     "date": "2026-07-15T19:00:00Z",
     "venueId": "mercedes-benz",
-    "homeTeamId": null,
-    "awayTeamId": null,
+    "homeTeamId": "inglaterra",
+    "awayTeamId": "argentina",
     "status": "scheduled"
   },
   {
