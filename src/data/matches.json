@@ -1437,10 +1437,10 @@
     "venueId": "mercedes-benz",
     "homeTeamId": "inglaterra",
     "awayTeamId": "argentina",
-    "status": "live",
+    "status": "finished",
     "result": {
-      "homeGoals": 0,
-      "awayGoals": 0
+      "homeGoals": 1,
+      "awayGoals": 2
     }
   },
   {
