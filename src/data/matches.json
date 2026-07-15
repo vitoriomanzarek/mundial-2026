@@ -1437,7 +1437,11 @@
     "venueId": "mercedes-benz",
     "homeTeamId": "inglaterra",
     "awayTeamId": "argentina",
-    "status": "scheduled"
+    "status": "live",
+    "result": {
+      "homeGoals": 0,
+      "awayGoals": 0
+    }
   },
   {
     "id": "M103",
@@ -1445,7 +1449,7 @@
     "bracketSlot": "TP-1",
     "date": "2026-07-18T21:00:00Z",
     "venueId": "hard-rock",
-    "homeTeamId": null,
+    "homeTeamId": "francia",
     "awayTeamId": null,
     "status": "scheduled"
   },
@@ -1455,7 +1459,7 @@
     "bracketSlot": "F-1",
     "date": "2026-07-19T19:00:00Z",
     "venueId": "metlife",
-    "homeTeamId": null,
+    "homeTeamId": "espana",
     "awayTeamId": null,
     "status": "scheduled"
   }
