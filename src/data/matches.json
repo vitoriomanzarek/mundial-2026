@@ -1451,10 +1451,10 @@
     "venueId": "hard-rock",
     "homeTeamId": "francia",
     "awayTeamId": "inglaterra",
-    "status": "live",
+    "status": "finished",
     "result": {
-      "homeGoals": 0,
-      "awayGoals": 4
+      "homeGoals": 4,
+      "awayGoals": 6
     }
   },
   {
