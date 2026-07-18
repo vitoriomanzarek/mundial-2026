@@ -1451,7 +1451,11 @@
     "venueId": "hard-rock",
     "homeTeamId": "francia",
     "awayTeamId": "inglaterra",
-    "status": "scheduled"
+    "status": "live",
+    "result": {
+      "homeGoals": 0,
+      "awayGoals": 4
+    }
   },
   {
     "id": "M104",
