@@ -1465,6 +1465,10 @@
     "venueId": "metlife",
     "homeTeamId": "espana",
     "awayTeamId": "argentina",
-    "status": "scheduled"
+    "status": "live",
+    "result": {
+      "homeGoals": 0,
+      "awayGoals": 0
+    }
   }
 ]
